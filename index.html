@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Pythagorean Theorem</title>
+        <meta name="description" content="Our first page">
+        <meta name="keywords" content="html tutorial template">
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+    </head>
+    
+    <body>
+        <div id ="container">  <!-- Start of the container   -->    
+  
+            <!--used a label as a heading for the input box, for the input, the input type=number is chosen to get the input. -->
+         <label for "numIn">Enter your Values</label>
+         <input type="number" id="num1" name="num1">
+         <input type="number" id="num2" name="num2">
+          <!--used label for the checkbox. used input type=checkbox to display the checkbox  -->
+         <label for "check">Check If solving for Hypothenuse</label> 
+         <input type="checkbox" id ="check" name="check">
+        <!-- used the button property to create two buttons, one to calculate and the other to clear the form. used a div box to display the result.-->
+         <button type="button" id="btn"><p>Calculate</p></button>
+     <div id="result"></div>
+     <button type="button" id="clear"><p>Clear</p></button>
+   
+   </div> <!-- End of the container   -->
+   
+   <!--The label function displays messages above for the input functions like number(input) or checkbox. The calculate button calculates the a or b side of the triangle. The program only calculates the hypotenuse if the checkbox is checked. The final result is displayed in the result div box. The clear button will be used for clearing the entire form so that the user can input the values without individually clearing the boxes. -->
+        <script src="javascript.js"></script>
+    </body>
+</html>

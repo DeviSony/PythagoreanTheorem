@@ -1,0 +1,41 @@
+/* box-sizing allows to include padding and borders. the entire form is changed to Helvetica and the text is aligned to be in the center. */
+
+html{
+    box-sizing:border-boxing;
+    font-family: Helvetica;
+    text-align: center;
+  }
+  
+  /*This area covers the input, label, and buttons. The height and width are customized to be 30px and 254px. The boxes are displayed as blocks with the display function. Then added a margin, background, line-height, and box-shadow. */
+  input, label, button{
+   height: 30px;
+    display: block;
+    width: 254px;
+    margin: 0.8rem;
+    background: #b3bcfc;
+    line-height: 25px ;
+    box-shadow: 1px 1px 1px 1px #041401;
+  }
+  /*Given an assigned font size and line-height. */
+  p{
+    font-size: 17px;
+    line-height: 0.2px;
+  }
+  /*Gave a border of 1px black and a width of 285px. Set the margin to 0 auto to position the container in the center and give a background.*/
+  #container{
+    border: 1px solid black;
+    width: 285px;
+    margin: 0 auto;
+    background:#8d8ff7 ;
+  }
+  /*Gave a border of 1px solid black and width of 250px. The margin is set on 50px auto to get to the right position and with a height of 80px. Additionally, gave a background and box-shadow. */
+  #result{
+    border: 1px solid black;
+    width: 250px;
+    margin: 50px auto;
+    height: 80px;
+    background:#b3bcfc;
+    box-shadow: 1px 1px 1px 1px #041401;
+  }
+  
+  /*Used the box-sizing function to help add the additional padding, width, etc. The font of the entire form is set to Helvetica and the text is aligned to be in the center and all of this is declared in the html to avoid repetition. The boxes are given an appropriate width, height, line-height, margin, and background to fit the format.*/
